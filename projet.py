@@ -71,9 +71,10 @@ def get_troupal_channels():
 
 """
 # My Discord data visualization app
-## Paul Meignan - October 2021
 """
-
+st.sidebar.write("# Paul Meignan")
+st.sidebar.write("## October 2021")
+st.sidebar.write("[Github](https://github.com/Pelotfr)  [LinkedIn](https://www.linkedin.com/in/paul-meignan/)")
 analysis = st.sidebar.selectbox('Menu', ('Global analysis', 'In depth analysis on a server'))
 
 if analysis == 'Global analysis':
